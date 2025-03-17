@@ -1,0 +1,20 @@
+{
+	"name": "outputdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice_storagemkrishnaproject11",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "data.txt",
+				"folderPath": "output",
+				"container": "krishna1"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

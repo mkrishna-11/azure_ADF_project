@@ -1,0 +1,12 @@
+{
+	"name": "linkedservice_storagemkrishnaproject11",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=storagemkrishnaproject11;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQENFM0QyRERFLTNBOEEtNEFENC1CREVCLTlENTM1RDAwMkYyQ184YmY5NWFjMi02MTMxLTQ4M2QtODNlMS0zZjFkODYyOWZmMmQiDQp9"
+		}
+	}
+}
