@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "sales_data_sample.csv",
 				"container": "sales-raw"
 			}
 		}
