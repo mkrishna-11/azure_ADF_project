@@ -59,6 +59,9 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/krishnamalothu2@outlook.com"
+				},
 				"linkedServiceName": {
 					"referenceName": "databrickslinkedservice",
 					"type": "LinkedServiceReference"
