@@ -1,0 +1,124 @@
+{
+	"name": "rawdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice_storagemkrishnaproject11",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "sales_data_sample.csv",
+				"container": "sales-raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ORDERNUMBER",
+				"type": "String"
+			},
+			{
+				"name": "QUANTITYORDERED",
+				"type": "String"
+			},
+			{
+				"name": "PRICEEACH",
+				"type": "String"
+			},
+			{
+				"name": "ORDERLINENUMBER",
+				"type": "String"
+			},
+			{
+				"name": "SALES",
+				"type": "String"
+			},
+			{
+				"name": "ORDERDATE",
+				"type": "String"
+			},
+			{
+				"name": "STATUS",
+				"type": "String"
+			},
+			{
+				"name": "QTR_ID",
+				"type": "String"
+			},
+			{
+				"name": "MONTH_ID",
+				"type": "String"
+			},
+			{
+				"name": "YEAR_ID",
+				"type": "String"
+			},
+			{
+				"name": "PRODUCTLINE",
+				"type": "String"
+			},
+			{
+				"name": "MSRP",
+				"type": "String"
+			},
+			{
+				"name": "PRODUCTCODE",
+				"type": "String"
+			},
+			{
+				"name": "CUSTOMERNAME",
+				"type": "String"
+			},
+			{
+				"name": "PHONE",
+				"type": "String"
+			},
+			{
+				"name": "ADDRESSLINE1",
+				"type": "String"
+			},
+			{
+				"name": "ADDRESSLINE2",
+				"type": "String"
+			},
+			{
+				"name": "CITY",
+				"type": "String"
+			},
+			{
+				"name": "STATE",
+				"type": "String"
+			},
+			{
+				"name": "POSTALCODE",
+				"type": "String"
+			},
+			{
+				"name": "COUNTRY",
+				"type": "String"
+			},
+			{
+				"name": "TERRITORY",
+				"type": "String"
+			},
+			{
+				"name": "CONTACTLASTNAME",
+				"type": "String"
+			},
+			{
+				"name": "CONTACTFIRSTNAME",
+				"type": "String"
+			},
+			{
+				"name": "DEALSIZE",
+				"type": "String"
+			}
+		]
+	}
+}
