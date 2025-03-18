@@ -10,9 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "data.txt",
-				"folderPath": "input",
-				"container": "krishna1"
+				"fileName": "sales_data_sample.csv",
+				"container": "sales-raw"
 			}
 		}
 	},

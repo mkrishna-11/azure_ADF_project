@@ -10,9 +10,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "data.txt",
+				"fileName": "cleandata",
 				"folderPath": "output",
-				"container": "krishna1"
+				"container": "sales-clean-data"
 			}
 		}
 	},
