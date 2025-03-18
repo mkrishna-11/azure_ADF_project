@@ -48,7 +48,7 @@
 				]
 			},
 			{
-				"name": "Notebook1",
+				"name": "scalesdatacleaning",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -58,7 +58,11 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"linkedServiceName": {
+					"referenceName": "databrickslinkedservice",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
